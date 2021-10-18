@@ -1,0 +1,74 @@
+Computer Number Systems
+Question: Convert 2018_10 to octal.
+Solution:
+    2018 = 3 * 8^3 + 7 * 8^2 + 4 * 8^1 + 2 * 8^0 = 3742_8
+    The correct answer is: 3742
+
+Computer Number Systems
+Question:
+    How many decimal numbers from 1 to 32 have the same number of 1’s and 0’s in their binary
+    representation?
+    Note: ignore leading zeroes.
+Solution:
+    110 = 12 and 3210 = 1000002
+    Number of digits in the binary number:   1    2    3    4    5
+    Number with same number of 1’s as 0’s:   0    1    0    3    0
+    Total is 4.
+    The correct answer is: 4
+
+Recursive Functions
+Question:
+    Find 𝑓(18) given:
+    _Look at Figure1.png_
+Solution:
+    _Loot at Figure2.png_
+    The correct answer is: 4
+
+Recursive Functions
+Question:
+    Find 𝑓(𝑓(𝑓(𝑓(24)))) given:
+    _Look at Figure3.png_
+    Note: [x] is the greatest integer ≤ x
+Solution:
+    _Look at Figure4.png_
+    The correct answer is: 2
+
+What Does This Program Do? - Branching
+Question:
+    What is output when this program is executed?
+    a = 2 : b = 1 : c = 0 : d = 3 : e = 4
+    f = a + b + c + d + e
+    if f / 5 == a then
+        f = f / 5
+    else
+        f = a + 2
+    end if
+    if a + b < d * e / 2 then
+        b = d
+    else
+        a = e
+    end if
+    if 2 * d ↑ c == e / a then
+        d = e
+    else
+        c = a
+    end if
+    if (b < d) && (c < e) then
+        b = d
+    else
+        c = e
+    end if
+    if (c ↑ a > d * e) || (f < d / e) then
+        c = a
+    else
+        d = c
+    end if
+    output 2 * a + b * (c − d) + e / 2 * f
+    end
+Solution:
+    _Look at Figure5.png_
+    2 * a + b * (c - d) + e / 2 * f = 2 * 2 + 4 * (0 - 0) + 4 / 2 * 2
+        = 2 * 2 + 4 * 0 + 4 / 2 * 2
+        = 4 + 0 + 4
+        = 8
+    The correct answer is: 8
