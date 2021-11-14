@@ -19,4 +19,4 @@ The [ACSL](https://www.acsl.org/) competition was introduce to me by this course
 * ShortProblems.txt: Containing a list of the [ACSL](https://www.acsl.org/) short problem questions and solutions (answer + explanation). This might possibly require images named "Figure(#).png". It will be noted where the figure should be 'inserted'.
 * Question.txt: The singular programming question in the [ACSL](https://www.acsl.org/) contests.
 * Answer: My answer to the programming question from Question.txt.
-* _possibly_ Official.txt: This files notes that the contest was officially taken. The file will contain the scores to both my short questions and programming question and any other related information.
+* _possibly_ Official.txt: This files notes that the contest was officially taken. The file will contain the scores to both my short questions and programming question and any other related information. Everyone's scores can be seen on the [ACSL leader-board](https://www.scores.acsl.org/leaderboard/students/j5/)
