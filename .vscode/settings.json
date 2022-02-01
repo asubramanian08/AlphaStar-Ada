@@ -3,6 +3,9 @@
         "iostream": "cpp",
         "vector": "cpp",
         "utility": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "algorithm": "cpp",
+        "set": "cpp",
+        "unordered_map": "cpp"
     }
 }
