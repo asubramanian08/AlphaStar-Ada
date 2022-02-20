@@ -2,7 +2,7 @@
 
 ### About
 
-I took the [AlphaStar Ada master courses](https://alphastar.academy/courses/cs-masters/?print=print) (CC39-21) with [Dr. Fatih Gelgi](https://alphastar.academy/people/fgelgi/). Starting on September 19th the classes meet almost every other week for 2 hours. Each class we discuss (and implement for homework) a few problems from from a variety of contests (see [organization](https://github.com/asubramanian08/AlphaStar-Ada#organization)).
+I took the [AlphaStar Ada master courses](https://alphastar.academy/cs-master-courses/#masterschedule) (CC39-21) with [Dr. Fatih Gelgi](https://alphastar.academy/people/fgelgi/). Starting on September 19th the classes meet almost every other week for 2 hours. Each class we discuss (and implement for homework) a few problems from from a variety of contests (see [organization](https://github.com/asubramanian08/AlphaStar-Ada#organization)).
 
 ### Organization
 
