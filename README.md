@@ -2,7 +2,7 @@
 
 ### About
 
-I took the [AlphaStar Ada master courses](https://alphastar.academy/cs-master-courses/#masterschedule) (CC39-21) with [Dr. Fatih Gelgi](https://alphastar.academy/people/fgelgi/). Starting on September 19th the classes meet almost every other week for 2 hours. Each class we discuss (and implement for homework) a few problems from from a variety of contests (see [organization](https://github.com/asubramanian08/AlphaStar-Ada#organization)).
+I took the [AlphaStar Ada master course](https://alphastar.academy/cs-master-courses/#masterschedule) (CC39-21) with [Dr. Fatih Gelgi](https://alphastar.academy/people/fgelgi/). Starting on September 19th the classes meet almost every other week for 2 hours. Each class we discuss (and implement for homework) a few problems from from a variety of contests (see [organization](https://github.com/asubramanian08/AlphaStar-Ada#organization)).
 
 ### Organization
 
@@ -22,3 +22,7 @@ The [ACSL](https://www.acsl.org/) competition was introduce to me by this course
 * Question.txt _private_: The singular programming question in the [ACSL](https://www.acsl.org/) contests.
 * Answer: My answer to the programming question from Question.txt.
 * _possibly_ Official.txt: This files notes that the contest was officially taken. The file will contain the scores to both my short questions and programming question and any other related information. Everyone's scores can be seen on the [ACSL leader-board](https://www.scores.acsl.org/leaderboard/students/j5/).
+
+### Stanford ProCo
+
+I took the [Stanford](https://www.stanford.edu) [ProCo](https://stanfordacm.org/proco/) on March 5th 2022 with 2 other members from this [AlphaStar Ada master course](https://alphastar.academy/cs-master-courses/#masterschedule). The contest itself was taken on [Codeforces](https://codeforces.com/) as [ProCo 2022](https://codeforces.com/gym/371820). My team, [Alphastar team 1](https://codeforces.com/team/98757), got full credit for 8/16 questions during the 3 hours test ranking #17 out of 52 teams in the advanced division. For more information look at [TeamScores.txt](https://github.com/asubramanian08/AlphaStar-Ada/blob/master/StanfordProCo/TeamScores.txt). Check out the [StanfordProCo](https://github.com/asubramanian08/AlphaStar-Ada/tree/master/StanfordProCo) folder for my solutions.

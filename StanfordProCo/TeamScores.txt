@@ -1,0 +1,18 @@
+A: Full Credit
+B: Full Credit
+C: Full Credit
+D: Full Credit
+E: Full Credit
+F: Failed on 1
+G: Full Credit
+H: Full Credit
+I: Failed on 4
+J: Unattempted
+K: Failed on 6
+L: Unattempted
+M: Unattempted
+N: Full Credit
+O: Unattempted
+P: Unattempted
+
+"Alphastar Team 1" (https://codeforces.com/team/98757) ranked #17 in the contest out of 52 teams
