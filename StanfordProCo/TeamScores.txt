@@ -16,3 +16,4 @@ O: Unattempted
 P: Unattempted
 
 "Alphastar Team 1" (https://codeforces.com/team/98757) ranked #17 in the contest out of 52 teams
+Codeforces gym link: https://codeforces.com/gym/371820

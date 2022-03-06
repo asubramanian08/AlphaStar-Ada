@@ -1,4 +1,3 @@
-// Failed on test case 3
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -19,7 +18,7 @@ int main(void)
             maxDist = max(maxDist, trees[i].first - lastFail - 2);
             lastFail = trees[i].first;
         }
-    maxDist = max(maxDist, trees[treeCt].first - lastFail - 1);
+    maxDist = max(maxDist, trees[treeCt - 1].first - lastFail - 1);
     cout << maxDist << endl;
     return 0;
 }
