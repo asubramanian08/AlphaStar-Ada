@@ -1,0 +1,44 @@
+Water Ziplines
+
+Description
+
+There is an ocean in a cartesian plane ranging from (0,0) to (M,N). On some of the integer coordinates
+of this cartesian plane there are islands. All the islands are owned by either Alex, Bossologist, or
+Codicon. Alex wants to build as many different ziplines from any of his islands to any of
+Bossologist's islands as possible. Here are the conditions for making a zipline:
+
+1. A zipline must be a straight line, starting from one of Alex's islands and ending at one of
+Bossologist's islands.
+2. It must not cross any of Codicon's islands.
+3. A zipline can pass through any of Alex or Bossologist's other islands.
+
+A zipline is considered different from another if either the starting point or the ending point is
+different.
+
+Input
+
+There will be two space-separated integers 1≤M≤120 and 1≤N≤120. The cartesian plane will range from
+(0,0) to (M,N). Thus, there will be M+1 lines of N+1 space-separated characters, which will be either
+A, B, C, or W. A represents Alex-owned islands, B represents Bossologist-owned islands, C represents
+Codicon-owned islands, and W represents the water (ocean).
+
+Output
+
+The output will be an integer showing the number of different ziplines that can be created satisfying
+the conditions.
+
+Sample Input 1  Sample Output 1
+2 2             5
+A A A
+C C W
+B B B
+
+Sample Explanation
+
+There are 5 different ziplines. For the first A island located at (0,0), there is one B island it can
+reach, (2,1). For the second A island located at (0,1), there are two B islands, (2,0) and (2,2). For
+the final A island located at (0,2), there are also two ziplines that can reach an island B, (2,1) and
+(2,2). Thus the answer is 1+2+2=5.
+
+Source
+Spark

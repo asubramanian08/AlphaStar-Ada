@@ -1,0 +1,48 @@
+Meeting Minutes
+
+Description
+
+The problem setting team tries to keep weekly meetings to discuss progress etc. Generally, the person
+who arrives last has to do meeting minutes. Unfortunately, recently regardless of who arrives last,
+Elijah does the meeting minutes (even if he does not show up to the meeting himself!).
+
+You will be given a list of n, (1≤n≤100) names in the order that they arrived to the meeting. Each
+person's name will be 20 characters or less.
+
+You will have to output the person who will do the meeting minutes.
+
+Input
+
+The first line will contain an integer (1≤n≤100), the number of people who showed up to the meeting.
+The following n lines will each contain one name per line, (1≤∣name∣≤20) denoting the name of the
+person in the order they showed up to the meeting. All names will consist of only of ASCII characters.
+
+
+Output
+
+You will have to output the person who does the meeting minutes (Elijah!). The output is case
+sensitive.
+
+Sample Input 1  Sample Output 1
+7               Elijah
+Elijah
+chessbot
+bossologist
+chessbot
+MantleMoose
+null_awe
+SPark
+
+Sample Explanation
+
+Elijah arrives first.
+Chessbot shows up second.
+Then Bossologist arrives.
+Afterwards, chessbot's clone joins the meeting.
+MantleMoose arrives after that.
+A little after, nullawe who is not in the problem setting team joins.
+Finally, SPark dials in.
+As per tradition, Elijah has to do the meeting minutes.
+
+Source
+3366

@@ -1,0 +1,57 @@
+Oops, It's Yesterday Thrice More!
+
+Description
+
+In reference to a [similar problem](https://codeforces.com/gym/103470/problem/A), you have been tasked
+with handling kangaroos on grids!
+
+Misaka had an n by m grid of kangaroos. She also had a string s of instructions which were all L, R,
+D, or U.
+
+If the current instruction was L, a kangaroo on spot x,y would move to max(1,x−1),y
+
+If the current instruction was R, a kangaroo on spot x,y would move to min(n,x+1),y
+
+If the current instruction was D, a kangaroo on spot x,y would move to x,max(1,y−1)
+
+If the current instruction was U, a kangaroo on spot x,y would move to x,min(m,y+1)
+
+A given instruction will be followed by all kangaroos on the board. If two kangaroos end up on the
+same spot, they will move together for all of the following instructions.
+
+Initially there is a kangaroo on every cell x,y such that (1≤x≤n),(1≤y≤m). After the instruction
+string s was executed, every kangaroo was gathered on the same cell.
+
+Unfortunately, Misaka has forgotten the original size of the grid n and m! Luckily, she still
+remembers the instruction string s and would like you to find the maximum area of the original grid.
+
+Input
+
+The first line will be one integer T denoting the number of testcases (1≤T≤100). Each of the following
+T lines will contain an integer n denoting the length of the instruction string followed by a string s
+denoted the instruction string (1≤n≤10^6). It is guaranteed that the sum of n over all testcases is
+less than 10^6.
+
+Output
+
+You will output lines. Each line will contain one integer denoting the maximum area of a grid that
+guarantees after the instruction string s is executed all the kangaroos are on the same spot.
+
+Sample Input 1  Sample Output 1
+4               2
+1               6
+L               16
+3               4
+LDL
+8
+RLDULULU
+4
+LRUD
+
+Sample Explanation
+
+In the first sample, the kangaroos on (1, 1) will all move to (1, 2) on a 1x2 board. It can be proven
+no better area exists.
+
+Source
+3366

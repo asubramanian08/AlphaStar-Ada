@@ -1,0 +1,61 @@
+Painting Fences (Easy Version)
+
+Description
+
+This is the easy version of the problem. In this version, Takagi only has to follow one rule.
+
+Nishikata and Takagi are standing in front of an infinitely long fence. Fenceposts are numbered from 1
+to ∞ and fencepost i costs i units of paint to paint. They both also have an infinite amount of paint.
+The game for today will consist of painting a bit of that fence.
+
+To try and make it fair, Nishikata has planned a few rules.
+
+
+Nishikata's rules are as follows:
+1. When painting, the two of them will only ever paint a contiguous interval of fenceposts.
+2. He will pick a fencepost n, and he gets to paint that fencepost no matter what.
+3. To minimize teasing, he will pick a segment of fenceposts that are disjoint from the fenceposts
+Takagi picks. In other words, he and Takagi will not ever paint the same fencepost.
+
+
+As Takagi plays the game, she won't tell Nishikata, but she will follow these rules:
+1. She will make the game will end in a draw by making sure she and Nishikata will paint the same
+amount.
+
+
+Takagi already knows how the game will end up, but you do not. So given the integer n that Nishikata
+picks in rule 2, find any two intervals [a,b] that Nishikata paints and [c,d] that Takagi paints that
+does not break either of their rules.
+
+Input
+
+You will answer T testcases (1≤T≤10^4).
+
+Each testcase contains an integer n (1≤n≤10^9) corresponding to the fencepost Nishikata picks in rule
+2.
+
+Output
+
+Output four integers a,b,c,d where [a,b] denotes the fenceposts Nishikata paints and [c,d] denotes
+the fenceposts Takagi paints. It can be proven an answer always exists and it satisfies
+(1≤a,b,c,d<2^31).
+
+These two intervals must be disjoint and sum of [a...b] should be equal to sum of [c...d]. Also
+(a≤n≤b) must hold.
+
+If there are multiple solutions, output any.
+
+Sample Input 1  Sample Output 1
+2               1 2 3 3
+1               9 10 19 19
+9
+
+Sample Explanation
+
+Note that 1,2,3,3 is also a valid output for the first sample while 1546 is not.
+
+Note that there are many valid solutions you are free to output any of them, so 1,3,6,6 is also valid
+for the first testcase.
+
+Source
+3366

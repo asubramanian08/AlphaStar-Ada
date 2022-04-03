@@ -1,0 +1,46 @@
+Shokugeki no Waifu
+
+Description
+
+You've just challenged Soma to a shokugeki (food war)! The winner gets to hold hands with their
+favorite waifu!
+
+In order to win, you need to craft the tastiest meal using N (1≤N≤10^5) ingredients. The umami of the
+ith ingredient is U_i and the sweetness of the ith ingredient is S_i (1≤U_i,S_i≤10^9).
+
+To make the tastiest meal, the ratio of umami and sweetness is important. More specifically, for each
+ingredient, you need to make U_i=K⋅S_i (1≤K≤10^4). In one second, you can choose either the umami or
+sweetness of a single ingredient and either increase or decrease it by 1.
+
+Find the minimum amount of time you need to make the tastiest meal.
+
+https://i.ibb.co/qNj0vTr/soma.jpg
+
+Input
+
+The first line contains 2 integers, N,K.
+
+The next N lines describe the ingredients. The ith of which contains 2 integers, U_i,S_i.
+​	
+Output
+
+Print the minimum amount of time you need to make the tastiest meal.
+
+Sample Input 1  Sample Output 1
+2 5             2
+5 1
+9 3
+
+Sample Explanation
+
+For the 1st ingredient of the sample, you don't change the umami or sweetness. Now, U_1=5 and
+K⋅S=5⋅1=5, so U_1=K⋅S_1. You spent 0 seconds changing the umami and sweetness of the 1st ingredient.
+
+For the 2nd ingredient of the sample, you can spend a second increasing U_2 from 9 to 10. Then, you
+can spend another second decreasing S_2 from 3 to 2. Now, U_2=10 and K⋅S_2=5⋅2=10, so U_2=K⋅S_2. You
+spent 2 seconds changing the umami and sweetness of the 2nd ingredient.
+
+In total, you spent 0+2=2 seconds making the tastiest meal, which is the minimum.
+
+Source
+codicon

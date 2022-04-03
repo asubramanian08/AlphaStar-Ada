@@ -1,0 +1,30 @@
+Sticky Spelling Situation
+
+Description
+
+You are given two strings of equal length, A and B. Two strings are considered alike if they contain
+the same count of each letter they possess. Note that two strings can be alike even if they are not
+exactly equal. Your goal is to find the minimum number of letters that need to be changed in A in
+order for the two strings to be considered alike.
+
+Input
+
+The first line of input will be an integer N (1≤N≤10^4), denoting the length of both of the strings.
+
+Then the next two lines will contain two lowercase space-separated strings A and B.
+
+Output
+
+The output should be an integer representing the minimum number of letters needing to be changed in A
+for the two strings to be considered alike.
+
+Sample Input 1  Sample Output 1
+5               1
+abcde abcdf
+
+Sample Explanation
+The string abcde and abcdf have one character they don't have in common, which is e. Therefore, only
+one change is necessary for abcde and abcdf to be considered alike: change e to an f.
+
+Source
+Spark

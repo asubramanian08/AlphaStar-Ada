@@ -1,0 +1,22 @@
+Scores: Notes the first test case doesn't have associated points
+Problem  1: 21/21
+Problem  2: 21/21
+Problem  3: 21/21
+Problem  4: 21/21
+Problem  5: 21/21
+Problem  6: 21/21
+Problem  7: 21/21
+Problem  8: 21/21
+Problem  9:  4/21
+Problem 10: 21/21
+Problem 11:  1/21
+
+My team, astar_ada_air, was made of 4 people who competed in the TeamsCode novice division.
+We ranked 1st first among all pre-collage teams and 2nd over all out of 100 teams.
+
+Relevant links:
+Live Stream: https://www.youtube.com/watch?v=VCfXJP1PFNU (4:24:40 - announced my team)
+Contest Home Page: https://contest.teamscode.org/contest/5
+Contest Problems: https://contest.teamscode.org/contest/5/problems
+Contest Rankings: https://contest.teamscode.org/contest/5/rank
+Website overview of contest: https://www.teamscode.org/contests/spring-2022/
