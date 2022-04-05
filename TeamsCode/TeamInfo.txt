@@ -20,3 +20,4 @@ Contest Home Page: https://contest.teamscode.org/contest/5
 Contest Problems: https://contest.teamscode.org/contest/5/problems
 Contest Rankings: https://contest.teamscode.org/contest/5/rank
 Website overview of contest: https://www.teamscode.org/contests/spring-2022/
+Codeforces Gym (made after contest): https://codeforces.com/gym/103643
