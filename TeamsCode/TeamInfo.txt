@@ -19,5 +19,7 @@ Live Stream: https://www.youtube.com/watch?v=VCfXJP1PFNU (4:24:40 - announced my
 Contest Home Page: https://contest.teamscode.org/contest/5
 Contest Problems: https://contest.teamscode.org/contest/5/problems
 Contest Rankings: https://contest.teamscode.org/contest/5/rank
+    Check out the RankingPicture.png for some proof of my rank.
+    If you can't access the above link.
 Website overview of contest: https://www.teamscode.org/contests/spring-2022/
 Codeforces Gym (made after contest): https://codeforces.com/gym/103643
