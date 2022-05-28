@@ -6,6 +6,7 @@
         "new": "cpp",
         "algorithm": "cpp",
         "set": "cpp",
-        "unordered_map": "cpp"
+        "unordered_map": "cpp",
+        "functional": "cpp"
     }
 }
